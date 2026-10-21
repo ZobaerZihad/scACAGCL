@@ -29,8 +29,9 @@ torchvision== 0.26.0+cu130
 
 
 ## Usage
-
-Run the model using the following command:
++ Create two folders named 'data', and 'result' in the project folder. Put dataset file (e.g, yan.h5) into the 'data' folder. Output of the program are stored in the 'result' folder
+ 
++ Run the model using the following command:
 
 python scACAGCL.py \
     --data_file "PATH_TO_DATASET.h5" \
@@ -54,7 +55,8 @@ Arguments:
 
 
 
-
+## Datasets
+14 datasets used in this work can be directly downloaded here [Datasets](https://zenodo.org/records/15272789)
 
 ## Citation
 
